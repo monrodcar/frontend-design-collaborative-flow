@@ -1,4 +1,4 @@
-## [Frontend-Design: Collaborative flow](https://events.drupal.org/prague2022/sessions/frontend-design-collaborative-flow-workshop)
+# [Frontend-Design: Collaborative flow](https://events.drupal.org/prague2022/sessions/frontend-design-collaborative-flow-workshop)
 
 Workshop that was presented at DrupalCon Prague 2022.
 
@@ -13,3 +13,9 @@ On the frontend side, the process of interpreting the Figma template design and 
 To highlight the collaborative process, it will be explained how the design is documented in Figma and the impact this has on the workflow between designers and developers, as well as the communication facilities involved.
 
 [Here](https://github.com/monrodcar/frontend-design-collaborative-flow/blob/main/DrupalCon22_%20Frontend%20-%20Design%20_%20Collaborative%20flow%20(Workshop).pdf) you will have access to the slider of the presentation.
+
+# Branches:
+
+## [workshop/first](https://github.com/monrodcar/frontend-design-collaborative-flow/tree/workshop/first)
+## [workshop/second](https://github.com/monrodcar/frontend-design-collaborative-flow/tree/workshop/second)
+## [workshop/third](https://github.com/monrodcar/frontend-design-collaborative-flow/tree/workshop/third)

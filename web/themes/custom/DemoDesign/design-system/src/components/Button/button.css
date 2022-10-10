@@ -1,0 +1,33 @@
+/* To prevent clicking twice */
+:host button ::slotted(*) {
+  @apply pointer-events-none;
+}
+
+/* Base Button */
+button {
+  @apply flex items-center bg-black border-transparent text-white font-bold text-sm justify-center px-16 py-3 rounded-[40px] uppercase transition-all duration-200 ease-in-out hover:bg-brand/50;
+}
+
+/* Outline */
+:host([outline]) button {
+  @apply bg-white text-black border border-black;
+}
+
+:host([secondary]) button {
+  @apply bg-secondary text-white hover:!bg-secondary/80;
+}
+
+:host([not-rounded]) button {
+  @apply rounded-none px-5 py-4;
+}
+
+/* Disabled */
+/* disabled attribute and .button class are doubled to increase specificity */
+/* and override other attributes */
+:host([disabled]) button[disabled] {
+  @apply pointer-events-none border-white text-white opacity-40;
+}
+
+:host([disabled]):host([outline]) button[disabled] {
+  @apply pointer-events-none border-black bg-white text-black opacity-40;
+}

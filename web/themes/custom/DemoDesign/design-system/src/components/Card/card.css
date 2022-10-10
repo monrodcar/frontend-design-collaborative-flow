@@ -1,0 +1,19 @@
+:host {
+  @apply block max-w-xs;
+}
+
+.card {
+  @apply relative w-full h-full flex flex-col text-black;
+}
+
+.card__content {
+  @apply flex flex-col flex-grow p-5;
+}
+
+.card__action {
+  @apply mt-4;
+}
+
+.card ::slotted([slot="media"]) {
+  @apply block object-cover aspect-square;
+}

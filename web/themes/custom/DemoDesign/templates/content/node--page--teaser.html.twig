@@ -1,0 +1,19 @@
+{%
+  set card_attributes = create_attribute({
+    'label': label|render,
+    'has-action': url is not null ? true : false,
+    'has-more': true,
+  })
+%}
+
+<dc-card {{ card_attributes }}>
+
+  <div slot="media">
+    {{ content.field_preview_image|field_value }}
+  </div>
+  {{ content.field_preview_text|field_value }}
+  <a slot="action" href="#">
+    Example action
+  </a>
+
+</dc-card>

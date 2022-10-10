@@ -13,3 +13,24 @@ On the frontend side, the process of interpreting the Figma template design and 
 To highlight the collaborative process, it will be explained how the design is documented in Figma and the impact this has on the workflow between designers and developers, as well as the communication facilities involved.
 
 [Here](https://github.com/monrodcar/frontend-design-collaborative-flow/blob/main/DrupalCon22_%20Frontend%20-%20Design%20_%20Collaborative%20flow%20(Workshop).pdf) you will have access to the slider of the presentation.
+
+## Branches:
+
+* workshop/first:
+# Setup
+1. To start the project run `ddev start && ddev composer install`
+2. To import the demo database run `ddev import-db --src=./resources/db.sql.gz && ddev drush cr`
+3. To launch the project run `ddev launch`
+4. To login into the site run `ddev drush uli`
+
+# Install
+1. In ../web/themes/custom/DemoDesign/design-system `nvm use`
+2. In ../web/themes/custom/DemoDesign/design-system `npm install`
+3. In ../web/themes/custom/DemoDesign/ `npm install`
+
+# Storybook
+1. In ../web/themes/custom/DemoDesign/design-system `npm start`
+
+# Compile the changes
+1. In ../web/themes/custom/DemoDesign/design-system `npm run build`
+2. In ../web/themes/custom/DemoDesign/ `npm run build`

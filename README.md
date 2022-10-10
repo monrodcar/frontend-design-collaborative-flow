@@ -16,7 +16,7 @@ To highlight the collaborative process, it will be explained how the design is d
 ).pdf) you will have access to the slider of the presentation.
 # Branch:
 
-* workshop/thrid:
+* workshop/third:
 ## Setup
 1. To start the project run `ddev start && ddev composer install`
 2. To import the demo database run `ddev import-db --src=./resources/demo-database.sql.gz && ddev drush cr`

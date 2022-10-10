@@ -1,4 +1,4 @@
-## [https://events.drupal.org/prague2022/sessions/frontend-design-collaborative-flow-workshop](Frontend-Design: Collaborative flow)
+## [Frontend-Design: Collaborative flow](https://events.drupal.org/prague2022/sessions/frontend-design-collaborative-flow-workshop)
 
 Workshop that was presented at DrupalCon Prague 2022.
 

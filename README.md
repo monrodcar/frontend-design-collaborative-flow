@@ -11,3 +11,5 @@ The ease of replicating and adapting any project will be highlighted thanks to t
 On the frontend side, the process of interpreting the Figma template design and how it becomes a real design system based on web-components and tailwind will be explained.
 
 To highlight the collaborative process, it will be explained how the design is documented in Figma and the impact this has on the workflow between designers and developers, as well as the communication facilities involved.
+
+[Here](https://github.com/monrodcar/frontend-design-collaborative-flow/blob/main/DrupalCon22_%20Frontend%20-%20Design%20_%20Collaborative%20flow%20(Workshop).pdf) you will have access to the slider of the presentation.
